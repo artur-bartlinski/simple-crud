@@ -1,0 +1,89 @@
+/* 
+    Document   : style
+    Created on : 02-May-2013, 15:48:36
+    Author     : Artur
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display:block;
+}
+
+body {
+    background-color:#272120; 
+}
+
+#container {
+    width:1024px;
+    margin:0 auto;
+}
+
+#header {
+    background-color:#687473;
+}
+
+#menu {
+    background-color:#687473;
+    width:1024px;
+    height:30px;
+}
+
+h1 {
+    margin-bottom:0;
+}
+
+#panel img {
+    float:right;
+}
+
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+li {
+    float:left;
+}
+
+#menu a:link, #menu a:visited {
+    display:block;
+    width:200px;
+    border:2px solid;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-weight:bold;
+    color:#FFFFFF;
+    background-color:#895A43;
+    text-align:center;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+#menu a:hover,a:active {
+    background-color:#FCB383;
+}
+
+#panel {
+    background-color:#FCB383;
+    width:324px;
+    float:left;
+    margin:0;
+    
+}
+
+#content {
+    background-color:#EFFCFF;
+    width:700px;
+    float:left;
+    font-size:small;
+    font-family:sans-serif;
+    color:black;
+    margin:0;
+}
+
+#footer {
+    
+}
